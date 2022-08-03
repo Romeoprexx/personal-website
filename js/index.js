@@ -192,12 +192,3 @@ $(function(){
 })
 
 
-function sendMails() {
-  var link = "mailto:romeowinchester101@gmail.com"
-           + "?cc=myCCaddress@example.com"
-           + "&subject=" + encodeURIComponent(document.getElementById('subject'))
-           + "&body=" + encodeURIComponent(document.getElementById('body').value)
-  ;
-  
-  window.location.href = link;
-}
